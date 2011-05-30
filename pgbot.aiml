@@ -1,0 +1,97 @@
+<aiml version="1.0">
+
+<!-- insert your AIML categories here -->
+
+<category>
+<pattern>CAN YOU HELP ME *?</pattern>
+<template>What are you building?</template>
+</category>
+
+<category>
+<pattern>CAN YOU HELP *?</pattern>
+<template>What are you building?</template>
+</category>
+
+<category>
+  <pattern>*HELP*</pattern>
+  <template>What are you building?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>What are you building?</that>
+<template>
+<random>
+<li>Who needs that?</li>
+<li>What problem does this solve?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Who needs that?</that>
+<template>
+<random>
+  <li>Who uses it?</li>
+  <li>Who *really* needs it?</li>
+  <li>What problem does this solve?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>What problem does this solve?</that>
+<template>
+<random>
+  <li>Who uses it?</li>
+  <li>In any given day, how many people use it? Do they return?</li>
+  <li>Does that problem *really* need to be solved?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Who uses it?</that>
+<template>
+<random>
+  <li>Why do they need you? What's special about you?</li>
+  <li>In any given day, how many people use it? Do they return?</li>
+  <li>Does that problem *really* need to be solved?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>In any given day, how many people use it? Do they return?</that>
+<template>
+<random>
+  <li>Why do they need you? What's special about you?</li>
+  <li>What do you do for them once they get to your site?</li>
+  <li>Does that problem *really* need to be solved?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>Startups</pattern>
+<that>Who needs that?</that>
+<template>I worry, I worry...</template>
+</category>
+
+<category>
+<pattern>Startups</pattern>
+<that>Who uses it?</that>
+<template>I worry, I worry...</template>
+</category>
+
+<category>
+<pattern>Startups</pattern>
+<that>Who *really* needs it?</that>
+<template>I worry, I worry...</template>
+</category>
+
+</aiml>
